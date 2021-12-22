@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <title>Prueba Técnica - Sebastian Roa</title>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <nav>
+            <div class="main__nav-div">
+                <h1>DDM</h1>
+                <img src="./img/agenda.png" alt="logo">
+                <p>¡No hagas filas! <a href="">Agenda tu visita a la tienda</a> con el dia, hora y la tienda que más te
+                    acomode.</p>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <img src="./img/Banner.png" alt="">
+        </div>
+
+        <div class="contenido">
+            <p class="contenido-texto">is simply dummy text of the printing and typesetting industry. Lorem ipsum has
+                been the industry's
+                standard dummy text ev when an unknown printer took a galley of type and scrambled</p>
+
+            <div class="categoria">
+                <h3 class="categoria-texo">Selecciona tu Categoria</h3>
+                <div class="selecciona-categoria">
+                    <div class="opcion ">
+                        <div class="pointer"></div>
+                        <p>Moda ></p>
+                    </div>
+
+                    <div class="opcion">
+                        <div class="pointer"></div>
+                        <p>Electro ></p>
+                    </div>
+
+                    <div class="opcion">
+                        <div class="pointer"></div>
+                        <p>Belleza ></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="SectionModa" id="Moda">
+            <div class="row">
+                <div class="column-1-3">
+                    <div class="size-s-horizontal">
+                        <img src="./img/S-h.png" alt="" class="pointer">
+                    </div>
+                    <div class="size-m">
+                        <img src="./img/M.png" alt="" class="pointer">
+                    </div>
+                </div>
+
+                <div class="column-1-3">
+                    <div class="size-s-vertical">
+                        <img src="./img/S.png" alt="" class="pointer">
+                    </div>
+                    <div class="size-s-vertical">
+                        <img src="./img/S.png" alt="" class="pointer">
+                    </div>
+                </div>
+
+                <div class="column-1-3">
+                    <div class="size-l">
+                        <img src="./img/L.png" alt="" class="pointer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column-1">
+                    <div class="size-xl">
+                        <img src="./img/XL.png" alt="" class="pointer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="SectionElectro" id="Electro">
+            <h3>Electro</h3>
+
+            <div class="wrapper">
+                <div class="carousel owl-carousel">
+                    <div class="card" id="c1"></div>
+                    <div class="card" id="c2"></div>
+                    <div class="card" id="c3"></div>
+                    <div class="card" id="c4"></div>
+                    <div class="card" id="c5"></div>
+                    <div class="card" id="c6"></div>
+                </div>
+            </div>
+            <button class="button-black" id="ver-todos">VER TODO</button>
+        </div>
+
+
+
+
+        <div class="section-belleza" id="Belleza">
+            <div class="row row1">
+                <div class="column-60">
+                    <div class="belleza-izquierda">
+                    </div>
+                </div>
+                <div class="column-40">
+                    <div class="belleza-derecha">
+                        <h3 id="belleza-titulo">Belleza</h3>
+                        <p id="belleza-texto">is simply dummy text of the printing and typescripting lorem ipsum has
+                            been tje industry
+                            standar when an unkanown printer took a galley if type</p>
+                        <h3 id="belleza-ver-todo">Ver todo ></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="opciones-cuadro">
+                    <div class="opcion-cuadro pointer">
+                        <div></div>
+                        <p>Xxxxxxxx</p>
+                        <p>Ver todo ></p>
+                    </div>
+
+                    <div class="opcion-cuadro pointer">
+                        <div></div>
+                        <p>Xxxxxxxx</p>
+                        <p>Ver todo ></p>
+                    </div>
+
+                    <div class="opcion-cuadro pointer">
+                        <div></div>
+                        <p>Xxxxxxxx</p>
+                        <p>Ver todo ></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/main.js"></script>
+
+
+
+</body>
+
+</html>
